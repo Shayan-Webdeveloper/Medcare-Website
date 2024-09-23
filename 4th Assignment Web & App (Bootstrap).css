@@ -1,0 +1,290 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,body{
+     width: 100%;
+     height: 100vh;
+}
+@font-face {
+     font-family: 'Playfair';
+     src: url(FontsA/static/PlayfairDisplay-Medium.ttf);
+}
+@font-face {
+     font-family: 'Playfair2';
+     src: url(FontsA/static/PlayfairDisplay-ExtraBold.ttf);
+}
+.BL>a{
+     font-family: 'Playfair' !important;
+     font-size: 13px !important;
+}
+.BL>a:hover{
+     color: #0051d2 !important;
+}
+.icons>a:hover{
+     color: #0051d2 !important;
+}
+.BL>span>a{
+     font-family: 'Playfair';
+     font-size: 13px; 
+     float: right;
+}
+.BL>span>a:hover{
+     color: #0051d2;
+}
+.sticky>li>a:hover{
+     color: #0051d2 !important;
+}
+.card1{
+     width: 100%;
+     padding: 13% 4%;
+     background-image: url(Images/4th\ Assignment\ Web\ &\ App\ \(Bootstrap\)\ Image\ 2.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     object-fit: cover;
+}
+.card-title{
+     font-family: 'Playfair2';
+     font-weight: 900;
+     font-size: 46px;
+}
+.card-text{
+     width: 45%;
+     line-height: 27px;
+}
+.B-1:hover{
+     background-color: white !important;
+     color: #0051d2 !important;
+     border: none;
+}
+.B-2:hover{
+     background-color: #0051d2 !important;
+     color: white !important;
+     border: none;
+}
+.pattern{
+     background-image: url(Images/4th\ Assignment\ Web\ &\ App\ \(Bootstrap\)\ Image\ 3.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     object-fit: cover;
+     padding: 5%;
+}
+.heart{
+     color: #0051d2;
+}
+.headset{
+     color: #0051d2;
+}
+.layer{
+     color: #0051d2;
+}
+.Service{
+     margin-top: 10%;
+     color: #33363E;
+}
+.HS{
+     font-weight: 900;
+     font-family: 'Playfair2';
+}
+.LM{
+     font-family: 'Playfair';
+}
+.HSP{
+     line-height: 27px;
+}
+.UC:hover{
+     box-shadow: 0 0 30px gray;
+}
+.Cir{
+     background-color: #ECF0F8;
+     border-radius: 50%;
+     padding: 5%;
+     width: 30%;
+}
+.CP{
+     padding: 3%;
+     border-bottom: 0.1px solid gray;
+}
+.LM:hover{
+     color: #0051d2 !important;
+     border-bottom: 2px solid #0051d2 !important;
+}
+.card{
+     border-radius: 0 !important;
+}
+.DC{
+     background-color: rgb(248, 245, 245);
+     padding-top: 10%;
+     margin-left: -5%;
+}
+.HG>h4{
+     font-family: 'Playfair2';
+     font-weight: 900;
+     color: #33363E;
+     line-height: 55px;
+     font-size: 36px;
+     width: 84%;
+}
+@media only screen and (max-width: 992px) {
+     .HG>h4 {
+       font-size: 25px;
+       line-height: normal;
+       text-align: justify;
+     }
+     .P-1{
+          text-align: justify;
+     }
+     .P-2{
+          display: none;
+     }
+     .DT{
+          width: 22% !important;
+     }
+     .GH>h4{
+     font-size: 23px !important;
+     line-height: normal;
+     }
+     .MO{
+          width: 100%;
+     }
+     .LG{
+          width: 70%;
+     }
+     .FT{
+          font-size: 15px;
+     }
+     .ULI>li{
+          font-size: 12px;
+     }
+     .News{
+          margin-left: 0% !important;
+     }
+     .News>input{
+          width: 70%;
+          font-size: 12px;
+     }
+     .FP{
+          font-size: 12px;
+     }
+     .footer{
+          width: auto;
+     }
+   }
+.P-1{
+     font-family: 'Playfair';
+     color: #0051d2;
+     width: 90%;
+}
+.P-2{
+     width: 93%;
+}
+.MED{
+     margin-top: 10%;
+}
+.MH{
+     font-size: 36px;
+     font-family: 'Playfair2';
+     font-family: 900;
+     color: #33363E;
+}
+.EDP{
+     width: 100%;
+}
+.QS{
+     background-color: white;
+     box-shadow: 0 0 5px gray;
+     margin-top: 10%;
+     margin-left: 4%;
+     margin-right:4%;
+     padding: 7%;
+}
+.Que{
+     font-family: 'Playfair2';
+     font-size: 24px;
+     color: #33363E;
+}
+.Ques{
+     font-family: 'Playfair';
+     cursor: pointer;
+}
+.Ques:hover{
+     text-decoration: underline;
+}
+.FN{
+     font-family: 'Playfair';
+}
+.DSH{
+     font-family: 'Playfair';
+}
+.SC{
+     background-image: url(Images/4th\ Assignment\ Web\ &\ App\ \(Bootstrap\)\ Image\ 8.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     object-fit: cover;
+}
+.BU{
+     padding-top: 10%;
+     padding-bottom: 10%;
+     margin-left: -100%;
+     background-color: #0051d2a4;
+}
+.EH{
+     color: white;
+     font-family: 'Playfair';
+
+}
+.BU>a{
+     text-decoration: none;
+}
+.BU>a>h1{
+     font-size: 60px;
+     color: white;
+     font-weight: 900;
+}
+.BU>p{
+     color: white;
+}
+.long{
+     font-family: 'Playfair';
+     font-size: 12px;
+}
+.LG{
+     cursor: pointer;
+}
+.LG:hover{
+     opacity: 1 !important;
+}
+.Ar{
+     background-color: #0051d2;
+     color: white;padding: 2%;
+}
+ul{
+     list-style: none !important;
+}
+.FT{
+     font-family: 'Playfair2';
+}
+.ULI{
+     margin-top: 30%;
+}
+.ULI>li{
+     margin-bottom: 10%;
+     cursor: pointer;
+}
+.ULI>li:hover{
+     color: #0051d2;
+}
+.Inp:focus{
+     outline: none;
+}
+.logo{
+     margin-top: 10%;
+     background-color: rgb(247, 247, 247)
+}
+.Nav:hover{
+     color: #0051d2 !important;
+}
